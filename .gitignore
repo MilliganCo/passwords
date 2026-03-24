@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Project specific
+*.vault
+*.db
+.DS_Store
+
+# Tests
+.pytest_cache/
+.coverage
+htmlcov/
+
+.mypy_cache/
+.venv/
+# Node / frontend
+node_modules/
+.next/
+.nuxt/
+# OS
+Thumbs.db
+desktop.ini
+# Secrets and local config
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.crt
+id_rsa
+id_rsa.pub
+# Data and artifacts
+runs/
+tmp/
+tmp_pytorch/
+*.sqlite
+*.csv
+*.xlsx
+*.xls
