@@ -1,5 +1,7 @@
 # Локальный менеджер паролей
 
+> Experimental local password-vault source; independent cryptographic review pending. See [PUBLICATION.md](PUBLICATION.md) for verification and limits.
+
 Безопасный локальный менеджер паролей с зашифрованным хранилищем на Python. Использует современные криптографические алгоритмы для защиты ваших паролей.
 
 ## Особенности
